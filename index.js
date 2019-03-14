@@ -2,8 +2,11 @@
 // @name         ZenHub Board Display Mode
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  Display Mode for the ZenHub Board.
+// @copyright    2019, Simon Mika (simonmika.com)
+// @license      MIT
 // @author       smika
+// @exclude      *
 // @match        https://app.zenhub.com/workspaces/*/boards?repos=*
 // @grant        none
 // @run-at       document-idle
