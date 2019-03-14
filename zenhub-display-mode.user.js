@@ -1,17 +1,18 @@
 // ==UserScript==
+// @namespace    https://openuserjs.org/users/smika
 // @name         ZenHub Board Display Mode
-// @namespace    http://tampermonkey.net/
-// @version      1.0.0
 // @description  Display Mode for the ZenHub Board.
 // @copyright    2019, Simon Mika (simonmika.com)
 // @license      MIT
-// @author       smika
-// @collaborator smika
-// @exclude      *
-// @match        https://app.zenhub.com/workspaces/*/boards?repos=*
+// @version      1.0.0
+// @include      https://app.zenhub.com/workspaces/*/boards?repos=*
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
+
+// ==OpenUserJS==
+// @author       smika
+// ==OpenUserJS==
 
 (function() {
 	'use strict';
