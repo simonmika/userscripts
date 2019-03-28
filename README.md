@@ -1,2 +1,2 @@
-# userscripts-zenhub-display
-Scripts for creating a public display for a Zenhub board using Tampermonkey etc.
+# userscripts
+Collection of userscripts for TamperMonkey. Mostly focused around creating display screens.
